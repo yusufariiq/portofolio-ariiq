@@ -40,12 +40,12 @@ const FloatingActionButton = () => {
             to={social.href}
             target="_blank"
             rel="noopener noreferrer"
-            className={`flex items-center justify-center gap-2 p-3  rounded-full bg-primary shadow-lg 
+            className={`flex items-center justify-center gap-2 p-3  rounded-full bg-button text-white shadow-lg 
               transition-all duration-300 transform hover:scale-110 ${social.color} group`}
             aria-label={social.name}
           >
-            <social.icon className="text-white" />
-            <span className="absolute right-14 bg-primary px-2 py-1 rounded text-white text-sm 
+            <social.icon />
+            <span className="absolute right-14 bg-button px-2 py-1 rounded text-sm 
               opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               {social.name}
             </span>
