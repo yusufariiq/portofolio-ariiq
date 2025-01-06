@@ -5,10 +5,12 @@ import About from './page/About'
 import Certificate from './page/Certificate'
 import Project from './page/Project'
 import Skills from './page/Skills'
+import FloatingActionButton from './components/FloatingActionButton'
 
 function App() {
   return (
     <>
+      <FloatingActionButton/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

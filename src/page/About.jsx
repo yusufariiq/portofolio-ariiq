@@ -1,5 +1,13 @@
 import React from 'react'
-import { ArrowLeft, BriefcaseBusiness, GraduationCap } from 'lucide-react'
+import { 
+  ArrowLeft,
+  BriefcaseBusiness,
+  Github,
+  GraduationCap,
+  Instagram,
+  Linkedin,
+  Mail,
+} from 'lucide-react'
 import ProfilePicture from '../assets/image/profil2.jpg'
 import Timeline from '../components/Timeline'
 import { NavLink } from 'react-router-dom'
