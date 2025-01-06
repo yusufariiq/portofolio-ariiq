@@ -8,10 +8,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#133E87',
-        'secondary': '#608BC1',
-        'third': '#CBDCEB',
-        'fourth': '#F3F3E0',
+        'primary': '#00002E',
+        'secondary': '#000048',
+        'third': '#E5E5EA',
+        'button': '#5555ff',
         'white': '#F7F7F7',
       },
     },
