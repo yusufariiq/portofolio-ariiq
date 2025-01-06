@@ -11,6 +11,7 @@ export default {
         'primary': '#00002E',
         'secondary': '#000048',
         'third': '#E5E5EA',
+        'fourth': '#D292FF',
         'button': '#5555ff',
         'white': '#F7F7F7',
       },
