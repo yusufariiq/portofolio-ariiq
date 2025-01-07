@@ -1,16 +1,11 @@
 import React from 'react'
 import { 
-  ArrowLeft,
   BriefcaseBusiness,
-  Github,
   GraduationCap,
-  Instagram,
-  Linkedin,
-  Mail,
 } from 'lucide-react'
 import ProfilePicture from '../assets/image/profil2.jpg'
 import Timeline from '../components/Timeline'
-import { NavLink } from 'react-router-dom'
+import BackButton from '../components/BackButton'
 
 const About = () => {
   const workExperience = [
@@ -45,7 +40,7 @@ const About = () => {
   ]
 
   return (
-    <div className='min-h-screen flex flex-col lg:flex-row'>
+    <div className='min-h-screen flex flex-col lg:flex-row-reverse'>
         <div className="w-full lg:w-1/2 ">
           <div className="lg:sticky lg:top-0 h-1/2 lg:h-screen">
             <img 
@@ -56,10 +51,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 bg-primary p-8">
-          <NavLink to={"/"} className="mb-8 flex items-center gap-2 text-white ">
-            <ArrowLeft className='text-fourth' /> 
-            <p className='text-lg'>Back</p> 
-          </NavLink>
+          <BackButton />
           <div className="mb-8 flex flex-col gap-5">
             <h1 className='text-5xl font-semibold text-white'>ABOUT ME</h1>
             <h2 className='text-xl text-fourth font-medium'>Ariiq Yusuf Dhiya Ulhaq - Fullstack Engineer</h2>
