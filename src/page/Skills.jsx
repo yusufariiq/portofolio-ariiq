@@ -5,12 +5,12 @@ import BackButton from '../components/BackButton'
 
 const Skills = () => {
   return (
-    <div className="min-h-screen bg-primary text-white">
+    <div className="min-h-screen text-white gradient-bg">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 ">
         <BackButton />
 
         <div className="flex flex-col mb-8 gap-4">
-          <h1 className="text-4xl sm:text-5xl font-bold border-b-4 border-fourth w-fit mx-auto">TECH STACKS</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold border-b-4 border-button w-fit mx-auto">TECH STACKS</h1>
         </div>
 
         {/* All Skills */}

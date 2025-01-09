@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["I'm a Full Stack Engineer.", "I'm a Data Analyst"],
+      strings: ["I'm a Full Stack Engineer.", "I'm a Data Analyst."],
       typeSpeed: 100,
       backSpeed: 100,
       showCursor: false,
@@ -81,7 +81,7 @@ const Home = () => {
   ]
 
   return (
-    <div className='min-h-screen bg-primary flex flex-col justify-center items-center p-12'>
+    <div className='min-h-screen flex flex-col justify-center items-center p-12 overflow-hidden gradient-bg'>
       <div className="w-full max-w-6xl flex flex-row mb-20 gap-8 sm:gap-10">
         <div className="basis-2/3 text-white flex flex-col justify-center gap-2 md:gap-5">
           <h1 className="text-3xl md:text-6xl font-bold">Hi, I'm Ariiq Yusuf</h1>
@@ -98,11 +98,12 @@ const Home = () => {
           </button>
         </div>
         <div className="basis-1/3 flex flex-col items-center gap-6">
-          <img src={ProfilePicture} alt="Profile" className="rounded-full h-40 sm:h-60 object-cover" />
+          <img src={ProfilePicture} alt="Profile" className="border-4 rounded-full h-40 sm:h-60 object-cover" />
           <div className="flex gap-5 sm:gap-10 text-white">
             {socialLinks.map((social) => (  
               <NavLink 
                 to={social.href}
+                target='_blank'
                 className={`bg-button p-2 sm:p-3 rounded-full transition-all duration-300 transform hover:scale-110 ${social.color} group`}
               >
                 <social.icon/>

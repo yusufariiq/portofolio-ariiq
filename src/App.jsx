@@ -8,7 +8,6 @@ import Skills from './page/Skills'
 function App() {
   return (
     <>
-      {/* <FloatingActionButton/> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/certificate' element={<Certificate />} />

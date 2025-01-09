@@ -6,7 +6,7 @@ const BackButton = () => {
   return (
     <>
         <NavLink to={"/"} className="w-fit mb-8 flex items-center gap-1 text-white ">
-            <ChevronLeft className='text-fourth h-12' /> 
+            <ChevronLeft className='text-button h-12' /> 
             <p className='text-lg'>Back</p> 
         </NavLink>
     </>
