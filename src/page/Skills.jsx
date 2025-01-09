@@ -10,7 +10,7 @@ const Skills = () => {
         <BackButton />
 
         <div className="flex flex-col mb-8 gap-4">
-          <h1 className="text-4xl sm:text-5xl font-bold border-b-4 border-fourth w-fit mx-auto">SKILLS</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold border-b-4 border-fourth w-fit mx-auto">TECH STACKS</h1>
         </div>
 
         {/* All Skills */}
