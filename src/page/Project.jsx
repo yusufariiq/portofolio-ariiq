@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BackButton from '../components/BackButton'
 import { ProjectCard } from '../components/ProjectCard'
 import { PROJECTS_DATA } from '../constants/data'
+import { Tabs } from '../components/Tabs'
 
 const Project = () => {
+  const [activeTab, setActiveTab] = useState('All');
+  const tabs = ['All', 'Web Development', "UI/UX"];
+
+  const filteredProjects = PROJECTS_DATA.filter((project) => {
+    if (activeTab === 'All') return true;
+    return project.type === activeTab;
+  })
+
   return (
     <div className="min-h-screen text-white gradient-bg">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
@@ -14,8 +23,10 @@ const Project = () => {
           </h1>
         </div>
         
+        <Tabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {PROJECTS_DATA.map((project) => (
+          {filteredProjects.map((project) => (
             <ProjectCard
               key={project.title}
               {...project}
