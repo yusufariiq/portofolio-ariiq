@@ -22,7 +22,6 @@ import sqlDicodingCertificates from '../assets/certificates/23-sql-dicoding.jpg'
 import uxDicodingCertificates from '../assets/certificates/23-ux-dicoding.jpg';
 import dsDicodingCertificates from '../assets/certificates/24-ds-dicoding.jpg';
 import pythonDicodingCertificates from '../assets/certificates/24-python-dicoding.jpg';
-import sertifikatCCIT from '../assets/certificates/sertifikat-ccit.jpg';
 
 // Project
 import AdminImage from '../assets/image/admin.png'
@@ -57,15 +56,10 @@ import GitIcon from '../assets/icons/git.png'
 
 export const CERTIFICATES_DATA = [
     {
-      title: "Programming BNSP",
+      title: "Programmer BNSP",
       image: bnspCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1q_Ieg23r-LbL--Om25qVQYbK6WsNB074/view?usp=sharing"
     },
-    // {
-    //   title: "CCIT-FTUI Certification",
-    //   image: sertifikatCCIT,
-    //   detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
-    // },
     {
       title: "Responsive Web Design FreeCodeCamp",
       image: rwdFccCertificates,
@@ -79,87 +73,87 @@ export const CERTIFICATES_DATA = [
     {
       title: "Fundamental Frontend Dicoding",
       image: feFundamentalDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1s9YntNVjhQGP6cu6kVJ35acT8ca9-g9s/view?usp=sharing"
     },
     {
       title: "Beginner Frontend Dicoding",
       image: fePemulaDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1n3oeGFOzVLI7rzaYyFv-79rmS24Pv-JQ/view?usp=sharing"
     },
     {
       title: "Basic Web Programming Dicoding",
       image: webDasarDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1QbYTo7q6erBny3E2qHZEWRbxxDHtLZrc/view?usp=sharing"
     },
     {
       title: "Beginner Backend Dicoding",
       image: bePemulaDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/18wemln1EOd360wpg3hkhpUsNsP_DsuQo/view?usp=sharing"
     },
     {
       title: "Data Science Dicoding",
       image: dsDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1-m4QOFLPyenXqtpDPO2wEIaymW-JdGpl/view?usp=sharing"
     },
     {
       title: "Python Dicoding",
       image: pythonDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1y_6NAXHE7x2yVIq4-55dZ6mLP74fGPKX/view?usp=sharing"
     },
     {
       title: "JavaScript Dicoding",
       image: jsDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1rfnM7E9NusR-gR5f4GUYoHt1ZPzE3a74/view?usp=sharing"
     },
     {
       title: "Java Dicoding",
       image: javaDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1PvVGkj1JUnIQMXdkle2qyK2pTE1EoL8P/view?usp=sharing"
     },
     {
       title: "SQL Dicoding",
       image: sqlDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1ualkHHgkduv4YKcGbYzhBBGooFKEUdkC/view?usp=sharing"
     },
     {
       title: "UX Design Dicoding",
       image: uxDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1dUNnF4x_TtFIFW9vGa0ue9sXj3jZ0QtK/view?usp=sharing"
     },
     {
       title: "Git Dicoding",
       image: gitDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1qNu3nTMgEQRcfqbFQv51pUNOodKSTPiS/view?usp=sharing"
     },
     {
       title: "AWS Cloud Dicoding",
       image: awsDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1zquxuflPja5oWj0FF0rLP2oro4SIYwry/view?usp=sharing"
     },
     {
       title: "Google Cloud Dicoding",
       image: googleCloudDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1pzQtGPcFV0SzqsaaU7_-FP1_fG2Tb0Mg/view?usp=sharing"
     },
     {
       title: "Dart Dicoding",
       image: dartDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1WyZ6Ncifaal69WBYgWSqN6NH_xK1wSqB/view?usp=sharing"
     },
     {
       title: "Haskell Dicoding",
       image: haskellDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1v3Jtz1CCRq8ueGV-p_eSLf52M1NcupzI/view?usp=sharing"
     },
     {
       title: "C Dicoding",
       image: cDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1RFSJVgEOkMl65AXWnEMLd1l9Yd7kXLpE/view?usp=sharing"
     },
     {
       title: "SOLID Principles Dicoding",
       image: solidDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
+      detailsUrl: "https://drive.google.com/file/d/1ie8Nf95GBuVIgIaz_5kTl_SlOr7_0z_z/view?usp=sharing"
     },
 ]
 
