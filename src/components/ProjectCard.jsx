@@ -1,7 +1,6 @@
 import { CodeXml, ExternalLink } from 'lucide-react'
 import { NavLink } from "react-router-dom"
 
-
 export function ProjectCard({ title, description, image, demoUrl, detailsUrl }) {
   return (
     <div className="bg-secondary/50 border-0 overflow-hidden rounded-lg group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">

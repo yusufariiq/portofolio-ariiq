@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Code, Briefcase, Award, Github, Instagram, Linkedin, Mail, FileText, } from 'lucide-react'
+import { FileText, } from 'lucide-react'
+import { SOCIAL_LINKS, HOME_SECTIONS } from '../constants/data'
 import { NavLink } from 'react-router-dom'
 import Typed from "typed.js"
 import ResumeFile from "../assets/files/cv.pdf"
@@ -36,50 +37,6 @@ const Home = () => {
     }
   }
 
-  const sections = [
-    {
-      title: 'Projects',
-      icon: Briefcase,
-      link: '/project',
-      description: 'Accomplished Works Unveiled.'
-    },
-    {
-      title: 'Certificates',
-      icon: Award,
-      link: '/certificate',
-      description: 'Recognitions showcasing my expertise.'
-    },
-    {
-      title: 'Tech Stack',
-      icon: Code,
-      link: '/skills',
-      description: 'Tools and technologies I excel with.'
-    }
-  ]
-
-  const socialLinks = [
-    {
-      icon: Instagram,
-      href: 'https://instagram.com/ariiqysf',
-      color: 'hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500'
-    },
-    {
-      icon: Linkedin,
-      href: 'https://linkedin.com/in/ariiqyusuf',
-      color: 'hover:bg-blue-600'
-    },
-    {
-      icon: Github,
-      href: 'https://github.com/yusufariiq',
-      color: 'hover:bg-gray-800'
-    },
-    {
-      icon: Mail,
-      href: 'mailto:ariiqyusufdu@gmail.com',
-      color: 'hover:bg-red-600'
-    }
-  ]
-
   return (
     <div className='min-h-screen flex flex-col justify-center items-center p-12 overflow-hidden gradient-bg'>
       <div className="w-full max-w-6xl flex flex-row mb-20 gap-8 sm:gap-10">
@@ -100,7 +57,7 @@ const Home = () => {
         <div className="basis-1/3 flex flex-col items-center gap-6">
           <img src={ProfilePicture} alt="Profile" className="border-4 rounded-full h-40 sm:h-60 object-cover" />
           <div className="flex gap-5 sm:gap-10 text-white">
-            {socialLinks.map((social) => (  
+            {SOCIAL_LINKS.map((social) => (  
               <NavLink 
                 to={social.href}
                 target='_blank'
@@ -114,7 +71,7 @@ const Home = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
-        {sections.map((section) => (
+        {HOME_SECTIONS.map((section) => (
           <div className=" bg-secondary p-6 rounded-lg text-white transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
             <NavLink
               to={section.link} 

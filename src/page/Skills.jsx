@@ -1,7 +1,7 @@
 import React from 'react'
 import SkillCard from '../components/SkillCard'
-import { SKILLS_DATA } from '../assets/SkillsData.js'
 import BackButton from '../components/BackButton'
+import { SKILLS_DATA } from '../constants/data'
 
 const Skills = () => {
   return (
