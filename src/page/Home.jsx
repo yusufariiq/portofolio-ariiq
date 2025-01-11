@@ -45,7 +45,7 @@ const Home = () => {
           <div className="h-9 mb-1">
             <h2 className="text-xl md:text-4xl font-medium full-stack-text"></h2>
           </div>
-          <p className='text-xs sm:text-sm md:text-base text-justify mb-3 text-neutral-300'>A highly motivated eighth semester student at with a passion for web design and development, experienced at developing responsive and user-friendly websites using ReactJS and other modern frameworks. Eager to contribute and grow professionally in a dynamic company.</p>
+          <p className='text-xs sm:text-sm md:text-base text-justify mb-3 text-neutral-300'>An enthusiastic final-year student with a strong passion for web design and development, skilled in building responsive and user-friendly websites using ReactJS and modern frameworks. Excited to bring creativity and expertise to a forward-thinking company while growing professionally.</p>
           <button 
             className="flex items-center gap-2 w-fit bg-button hover:bg-indigo-700 text-white px-3 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-lg font-medium hover:bg-opacity-90 transition-colors duration-300"
             onClick={handleDownload}
