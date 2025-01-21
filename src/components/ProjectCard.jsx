@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 export function ProjectCard({ title, description, image, demoUrl, detailsUrl, tools }) {
   return (
-    <div className="bg-secondary/50 border-0 overflow-hidden rounded-lg space-y-4 group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <div className="bg-secondary border-0 overflow-hidden rounded-lg space-y-4 group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       <div className="p-0">
         <div className="relative overflow-hidden aspect-video">
           <img 
@@ -17,7 +17,7 @@ export function ProjectCard({ title, description, image, demoUrl, detailsUrl, to
           <p className="text-sm text-neutral-300 line-clamp-2">{description}</p>
           <div className="flex flex-row flex-wrap gap-2 text-xs ">
             {tools.map((tool, index) => (
-              <div className="bg-secondary p-2 rounded-lg" key={index}>
+              <div className="bg-third p-2 rounded-lg" key={index}>
                 <p className="text-neutral-300 line-clamp-2">{tool}</p>
               </div>
             ))}
