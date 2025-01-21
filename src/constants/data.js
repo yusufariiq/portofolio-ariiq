@@ -33,6 +33,7 @@ import FmsImage from '../assets/image/fms.png'
 import GeniusImage from '../assets/image/genius.png'
 import LPJformImage from '../assets/image/lpjform.png'
 import ProductlpImage from '../assets/image/productlp.png'
+import RoutefyImage from '../assets/image/routefy.png'
 import SpectrumImage from '../assets/image/spectrum.png'
 import TroubleshootImage from '../assets/image/troubleshoot.png'
 
@@ -164,7 +165,8 @@ export const PROJECTS_DATA = [
     image: BlokecoreImage,
     demoUrl: "https://bloke-core-frontend.vercel.app/",
     detailsUrl: "https://github.com/yusufariiq/BlokeCore-frontend",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["MongoDB", "Express", "React", "NodeJS", "Tailwind", "Midtrans"]
   },
   {
     title: "Admin Blokecore Online Store",
@@ -172,7 +174,8 @@ export const PROJECTS_DATA = [
     image: AdminImage,
     demoUrl: "https://bloke-core-admin.vercel.app/",
     detailsUrl: "https://github.com/yusufariiq/BlokeCore-admin",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["MongoDB", "Express", "React", "NodeJS", "Tailwind",]
   },
   {
     title: "Spectrum Movie Web",
@@ -180,7 +183,8 @@ export const PROJECTS_DATA = [
     image: SpectrumImage,
     demoUrl: "https://spectrum-movieweb-api.netlify.app/",
     detailsUrl: "https://github.com/yusufariiq/Spectrum-MovieWeb-API-React",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["React", "Tailwind", "Axios",]
   },
   {
     title: "Finance Management System",
@@ -188,7 +192,8 @@ export const PROJECTS_DATA = [
     image: FmsImage,
     demoUrl: "https://dev-fin.idsurvey.id/",
     detailsUrl: "#",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["React", "PostgreSQL", "MateriaUI", "Typescript", "Open Office"]
   },
   {
     title: "LPJ Form Generator",
@@ -196,7 +201,8 @@ export const PROJECTS_DATA = [
     image: LPJformImage,
     demoUrl: "#",
     detailsUrl: "https://github.com/Riverroll/LPJFORM",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["React", "PostgreSQL", "MateriaUI", "Typescript", "Open Office"]
   },
   {
     title: "Troubleshoot Ticketing",
@@ -204,7 +210,8 @@ export const PROJECTS_DATA = [
     image: TroubleshootImage,
     demoUrl: "#",
     detailsUrl: "https://github.com/yusufariiq/Troubleshoot-Ticketing-BKI",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["React", "PostgreSQL", "MateriaUI", "Typescript",]
   },
   {
     title: "Genius Hoster Landing Page",
@@ -212,7 +219,8 @@ export const PROJECTS_DATA = [
     image: GeniusImage,
     demoUrl: "https://yusufariiq.github.io/GeniusHoster-LandingPage/",
     detailsUrl: "https://github.com/yusufariiq/GeniusHoster-LandingPage",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["HTML", "CSS", "Bootstrap", "JQuery"]
   },
   {
     title: "Bookshelf",
@@ -220,7 +228,8 @@ export const PROJECTS_DATA = [
     image: BookshelfImage,
     demoUrl: "https://yusufariiq.github.io/Bookshelf/",
     detailsUrl: "https://github.com/yusufariiq/Bookshelf",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["HTML", "CSS", "Javascript"]
   },
   {
     title: "Product Landing Page",
@@ -228,7 +237,8 @@ export const PROJECTS_DATA = [
     image: ProductlpImage,
     demoUrl: "https://yusufariiq.github.io/Product-Landing-Page-Web/",
     detailsUrl: "https://github.com/yusufariiq/Product-Landing-Page-Web",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["HTML", "CSS"]
   },
   {
     title: "Blog Website",
@@ -236,7 +246,8 @@ export const PROJECTS_DATA = [
     image: BlogImage,
     demoUrl: "https://yusufariiq.github.io/MyFirstWebsite/",
     detailsUrl: "https://github.com/yusufariiq/MyFirstWebsite",
-    type: "Web Development"
+    type: "Web Development",
+    tools: ["HTML", "CSS", "Javascript"]
   },
   {
     title: "Bleu Coffee Apps UI/UX",
@@ -244,7 +255,17 @@ export const PROJECTS_DATA = [
     image: BleuImage,
     demoUrl: "https://www.figma.com/proto/3DPx3XLw0YIQ1lFv1ULyez/Bleu-Coffee-Apps?node-id=0-1&t=6BDLpnTnFtP2RObV-1",
     detailsUrl: "https://www.figma.com/design/3DPx3XLw0YIQ1lFv1ULyez/Bleu-Coffee-Apps?node-id=0-1&t=6BDLpnTnFtP2RObV-1",
-    type: "UI/UX"
+    type: "UI/UX",
+    tools: ["Figma"]
+  },
+  {
+    title: "Routefy Apps UI/UX",
+    description: "Mobile app that provide a better user experience in planning trips within the city.",
+    image: RoutefyImage,
+    demoUrl: "https://www.figma.com/proto/rQ1yLkTfWcqYCkVfGpzJtN/Intuitiva---Routefy?page-id=39%3A28&node-id=136-283&starting-point-node-id=68%3A127&t=ayexzItir5jOdcvZ-1",
+    detailsUrl: "https://www.figma.com/design/rQ1yLkTfWcqYCkVfGpzJtN/Intuitiva---Routefy?node-id=569-4647&t=O1lDozLAZNp0FEMx-1",
+    type: "UI/UX",
+    tools: ["Figma"]
   },
 ];
 

@@ -25,7 +25,7 @@ const Project = () => {
         
         <Tabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {filteredProjects.map((project) => (
             <ProjectCard
               key={project.title}
