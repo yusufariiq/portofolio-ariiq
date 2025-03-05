@@ -39,8 +39,8 @@ const Home = () => {
 
   return (
     <div className='min-h-screen flex flex-col justify-center items-center p-12 overflow-hidden gradient-bg'>
-      <div className="w-full max-w-6xl flex flex-row mb-20 gap-8 sm:gap-10">
-        <div className="basis-2/3 text-white flex flex-col justify-center gap-2 md:gap-5">
+      <div className="w-full max-w-6xl flex flex-col-reverse md:flex-row mb-10 md:mb-20 gap-8 sm:gap-10">
+        <div className="w-full md:w-2/3 text-white flex flex-col justify-center gap-2 md:gap-5">
           <h1 className="text-3xl md:text-6xl font-bold">Hi, I'm Ariiq Yusuf</h1>
           <div className="h-9 mb-1">
             <h2 className="text-xl md:text-4xl font-medium full-stack-text"></h2>
@@ -54,7 +54,7 @@ const Home = () => {
             Download CV
           </button>
         </div>
-        <div className="basis-1/3 flex flex-col items-center gap-6">
+        <div className="w-full md:w-1/3 flex flex-col items-center gap-6">
           <img src={ProfilePicture} alt="Profile" className="border-4 rounded-full h-40 sm:h-60 object-cover" />
           <div className="flex gap-5 sm:gap-10 text-white">
             {SOCIAL_LINKS.map((social) => (  
