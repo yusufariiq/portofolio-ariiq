@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Info } from 'lucide-react'
 import { CERTIFICATES_DATA } from '../constants/data'
 import BackButton from '../components/BackButton'
 

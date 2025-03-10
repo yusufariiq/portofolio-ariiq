@@ -66,10 +66,10 @@ export const BackgroundBeams = React.memo(
 
     return (
       <div
-        className="absolute  h-full w-full inset-0  [mask-size:40px] [mask-repeat:no-repeat] flex items-center justify-center"
+        className="absolute h-full w-full inset-0 flex items-center justify-center"
       >
         <svg
-          className=" z-0 h-full w-full pointer-events-none absolute "
+          className="h-full w-full pointer-events-none absolute "
           width="100%"
           height="100%"
           viewBox="0 0 696 316"

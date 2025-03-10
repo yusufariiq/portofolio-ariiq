@@ -29,6 +29,7 @@ import BleuImage from '../assets/image/bleu.png'
 import BlogImage from '../assets/image/blog.png'
 import BlokecoreImage from '../assets/image/blokecore.png'
 import BookshelfImage from '../assets/image/bookshelf.png'
+import DuluxImage from '../assets/image/dulux.png'
 import FmsImage from '../assets/image/fms.png'
 import GeniusImage from '../assets/image/genius.png'
 import LPJformImage from '../assets/image/lpjform.png'
@@ -160,6 +161,15 @@ export const CERTIFICATES_DATA = [
 
 export const PROJECTS_DATA = [
   {
+    title: "Dulux Design Competition 2025",
+    description: "Online store for seamless transactions and shopping experiences.",
+    image: DuluxImage,
+    demoUrl: "https://duluxdesigncompetition.com/home",
+    detailsUrl: "#",
+    type: "Web Development",
+    tools: ["NextJS", "Express", "React", "NodeJS", "Tailwind", "MySQL", "Prisma"]
+  },
+  {
     title: "Blokecore Online Store",
     description: "Online store for seamless transactions and shopping experiences.",
     image: BlokecoreImage,
@@ -176,15 +186,6 @@ export const PROJECTS_DATA = [
     detailsUrl: "https://github.com/yusufariiq/BlokeCore-admin",
     type: "Web Development",
     tools: ["MongoDB", "Express", "React", "NodeJS", "Tailwind",]
-  },
-  {
-    title: "Spectrum Movie Web",
-    description: "Discover and explore movies with Spectrum Movie Web.",
-    image: SpectrumImage,
-    demoUrl: "https://spectrum-movieweb-api.netlify.app/",
-    detailsUrl: "https://github.com/yusufariiq/Spectrum-MovieWeb-API-React",
-    type: "Web Development",
-    tools: ["React", "Tailwind", "Axios",]
   },
   {
     title: "Finance Management System",
@@ -212,6 +213,15 @@ export const PROJECTS_DATA = [
     detailsUrl: "https://github.com/yusufariiq/Troubleshoot-Ticketing-BKI",
     type: "Web Development",
     tools: ["React", "PostgreSQL", "MateriaUI", "Typescript",]
+  },
+  {
+    title: "Spectrum Movie Web",
+    description: "Discover and explore movies with Spectrum Movie Web.",
+    image: SpectrumImage,
+    demoUrl: "https://spectrum-movieweb-api.netlify.app/",
+    detailsUrl: "https://github.com/yusufariiq/Spectrum-MovieWeb-API-React",
+    type: "Web Development",
+    tools: ["React", "Tailwind", "Axios",]
   },
   {
     title: "Genius Hoster Landing Page",
