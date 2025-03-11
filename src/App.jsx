@@ -12,7 +12,7 @@ function App() {
       <LetterGlitch />
 
       {/* Konten utama */}
-      <div className="relative z-10 bg-black/50 min-h-screen">
+      <div className="relative z-10 bg-primary/50 min-h-screen">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/certificate' element={<Certificate />} />

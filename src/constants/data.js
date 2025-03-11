@@ -22,6 +22,7 @@ import sqlDicodingCertificates from '../assets/certificates/23-sql-dicoding.jpg'
 import uxDicodingCertificates from '../assets/certificates/23-ux-dicoding.jpg';
 import dsDicodingCertificates from '../assets/certificates/24-ds-dicoding.jpg';
 import pythonDicodingCertificates from '../assets/certificates/24-python-dicoding.jpg';
+import vdDicodingCertificates from '../assets/certificates/25-visualisasi-dicoding.png';
 
 // Project
 import AdminImage from '../assets/image/admin.png'
@@ -60,102 +61,128 @@ export const CERTIFICATES_DATA = [
     {
       title: "Programmer BNSP",
       image: bnspCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1q_Ieg23r-LbL--Om25qVQYbK6WsNB074/view?usp=sharing"
     },
     {
       title: "Responsive Web Design FreeCodeCamp",
       image: rwdFccCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1OHih4wZ3otgi87xvfTlstjBKLtAwnAgc/view?usp=sharing"
     },
     {
       title: "Pemograman HTML5 Udemy",
       image: udemyHTMLCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1m-fpckJcGQFwGyF3_xiz6V4U_EkGJC1r/view?usp=sharing"
     },
     {
       title: "Fundamental Frontend Dicoding",
       image: feFundamentalDicodingCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1s9YntNVjhQGP6cu6kVJ35acT8ca9-g9s/view?usp=sharing"
     },
-    {
-      title: "Beginner Frontend Dicoding",
-      image: fePemulaDicodingCertificates,
-      detailsUrl: "https://drive.google.com/file/d/1n3oeGFOzVLI7rzaYyFv-79rmS24Pv-JQ/view?usp=sharing"
-    },
+    // {
+    //   title: "Beginner Frontend Dicoding",
+    //   image: fePemulaDicodingCertificates,
+    //   year: 2022,
+    //   detailsUrl: "https://drive.google.com/file/d/1n3oeGFOzVLI7rzaYyFv-79rmS24Pv-JQ/view?usp=sharing"
+    // },
     {
       title: "Basic Web Programming Dicoding",
       image: webDasarDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1QbYTo7q6erBny3E2qHZEWRbxxDHtLZrc/view?usp=sharing"
     },
     {
       title: "Beginner Backend Dicoding",
       image: bePemulaDicodingCertificates,
+      year: "",
       detailsUrl: "https://drive.google.com/file/d/18wemln1EOd360wpg3hkhpUsNsP_DsuQo/view?usp=sharing"
     },
     {
       title: "Data Science Dicoding",
       image: dsDicodingCertificates,
+      year: 2024,
       detailsUrl: "https://drive.google.com/file/d/1-m4QOFLPyenXqtpDPO2wEIaymW-JdGpl/view?usp=sharing"
     },
     {
       title: "Python Dicoding",
       image: pythonDicodingCertificates,
+      year: 2024,
       detailsUrl: "https://drive.google.com/file/d/1y_6NAXHE7x2yVIq4-55dZ6mLP74fGPKX/view?usp=sharing"
     },
     {
       title: "JavaScript Dicoding",
       image: jsDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1rfnM7E9NusR-gR5f4GUYoHt1ZPzE3a74/view?usp=sharing"
     },
     {
       title: "Java Dicoding",
       image: javaDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1PvVGkj1JUnIQMXdkle2qyK2pTE1EoL8P/view?usp=sharing"
     },
     {
       title: "SQL Dicoding",
       image: sqlDicodingCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1ualkHHgkduv4YKcGbYzhBBGooFKEUdkC/view?usp=sharing"
     },
     {
       title: "UX Design Dicoding",
       image: uxDicodingCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1dUNnF4x_TtFIFW9vGa0ue9sXj3jZ0QtK/view?usp=sharing"
     },
     {
       title: "Git Dicoding",
       image: gitDicodingCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1qNu3nTMgEQRcfqbFQv51pUNOodKSTPiS/view?usp=sharing"
     },
     {
       title: "AWS Cloud Dicoding",
       image: awsDicodingCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1zquxuflPja5oWj0FF0rLP2oro4SIYwry/view?usp=sharing"
     },
     {
       title: "Google Cloud Dicoding",
       image: googleCloudDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1pzQtGPcFV0SzqsaaU7_-FP1_fG2Tb0Mg/view?usp=sharing"
     },
     {
       title: "Dart Dicoding",
       image: dartDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1WyZ6Ncifaal69WBYgWSqN6NH_xK1wSqB/view?usp=sharing"
     },
     {
       title: "Haskell Dicoding",
       image: haskellDicodingCertificates,
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1v3Jtz1CCRq8ueGV-p_eSLf52M1NcupzI/view?usp=sharing"
     },
     {
       title: "C Dicoding",
       image: cDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1RFSJVgEOkMl65AXWnEMLd1l9Yd7kXLpE/view?usp=sharing"
     },
     {
       title: "SOLID Principles Dicoding",
       image: solidDicodingCertificates,
+      year: 2022,
       detailsUrl: "https://drive.google.com/file/d/1ie8Nf95GBuVIgIaz_5kTl_SlOr7_0z_z/view?usp=sharing"
+    },
+    {
+      title: "Basic Data Visualization",
+      image: vdDicodingCertificates,
+      year: 2025,
+      detailsUrl: "https://drive.google.com/file/d/18jPrneDeS3UzznlmVuOZvs2srON8h3q4/view?usp=sharing"
     },
 ]
 

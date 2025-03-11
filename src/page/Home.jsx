@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 import Typed from "typed.js"
 import ResumeFile from "../assets/files/cv.pdf"
 import ProfilePicture from '../assets/image/profil2.jpg'
+import ShinyText from '../components/ShinyText'
 
 const Home = () => {
   const [downloaded, setDownloaded] = useState(false);
@@ -41,7 +42,8 @@ const Home = () => {
     <div className='min-h-screen flex flex-col justify-center items-center p-12 overflow-hidden'>
       <div className="w-full max-w-6xl flex flex-col-reverse md:flex-row mb-10 md:mb-20 gap-8 sm:gap-10">
         <div className="w-full md:w-2/3 text-white flex flex-col justify-center gap-2 md:gap-5">
-          <h1 className="text-3xl md:text-6xl font-bold">Hi, I'm Ariiq Yusuf</h1>
+          <ShinyText text="Hi, I'm Ariiq Yusuf" disabled={false} speed={5} className='text-3xl md:text-6xl font-bold' />
+          {/* <h1 className="text-3xl md:text-6xl font-bold">Hi, I'm Ariiq Yusuf</h1> */}
           <div className="h-9 mb-1">
             <h2 className="text-xl md:text-4xl font-medium full-stack-text"></h2>
           </div>
