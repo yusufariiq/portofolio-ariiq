@@ -4,18 +4,22 @@ import Home from './page/Home'
 import Certificate from './page/Certificate'
 import Project from './page/Project'
 import Skills from './page/Skills'
-import { BackgroundBeams } from './components/BackgroundBeams'
+import LetterGlitch from './components/LetterGlitch'
 
 function App() {
   return (
-    <div className="relative w-full h-full overflow-hidden">
-      <BackgroundBeams />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/certificate' element={<Certificate />} />
-        <Route path='/project' element={<Project />} />
-        <Route path='/skills' element={<Skills />} />
-      </Routes>
+    <div className="relative min-h-screen w-full overflow-hidden">
+      <LetterGlitch />
+
+      {/* Konten utama */}
+      <div className="relative z-10 bg-black/50 min-h-screen">
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/certificate' element={<Certificate />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/skills' element={<Skills />} />
+        </Routes>
+      </div>
     </div>
   )
 }

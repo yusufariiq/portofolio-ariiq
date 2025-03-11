@@ -1,7 +1,7 @@
-import { CodeXml, ExternalLink } from 'lucide-react'
+import { CodeXml, ExternalLink, Figma } from 'lucide-react'
 import { NavLink } from "react-router-dom"
 
-export function ProjectCard({ title, description, image, demoUrl, detailsUrl, tools }) {
+export function ProjectCard({ title, description, image, demoUrl, detailsUrl, type, tools }) {
   return (
     <div className="bg-secondary border-0 overflow-hidden rounded-lg space-y-4 group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       <div className="p-0">
@@ -30,21 +30,36 @@ export function ProjectCard({ title, description, image, demoUrl, detailsUrl, to
             to={demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="py-2 px-4 flex items-center bg-button gap-2 rounded-lg hover:bg-indigo-700 duration-200"
+            className="relative py-2 px-4 flex items-center bg-button gap-2 rounded-lg hover:bg-indigo-700 duration-200"
         >
-            Live Demo
+            { type === "UI/UX" ? (
+              <p>Prototype</p>
+            ) : (
+              <p>Live Demo</p>
+            )}
             <ExternalLink className="h-4 w-4" />
         </NavLink>
         
-        <NavLink
-            to={detailsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="py-2 px-4 flex items-center bg-third gap-2 rounded-lg hover:bg-secondary duration-200"
-        >
-            Code
-            <CodeXml className="h-4 w-4" />
-        </NavLink>
+        { detailsUrl !== '#' && 
+          <NavLink
+              to={detailsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative py-2 px-4 flex items-center bg-third gap-2 rounded-lg hover:bg-neutral-700 duration-200"
+          >
+              { type === "UI/UX" ? (
+                <>
+                  <p>Wireframe</p>
+                  <Figma className="h-4 w-4" />
+                </>
+              ) : (
+                <>
+                  <p>Code</p>
+                  <CodeXml className="h-4 w-4" />
+                </>
+              )}
+          </NavLink>
+        }
       </div>
     </div>
   )

@@ -166,6 +166,7 @@ export const PROJECTS_DATA = [
     image: DuluxImage,
     demoUrl: "https://duluxdesigncompetition.com/home",
     detailsUrl: "#",
+    date: "-",
     type: "Web Development",
     tools: ["NextJS", "Express", "React", "NodeJS", "Tailwind", "MySQL", "Prisma"]
   },
@@ -175,6 +176,7 @@ export const PROJECTS_DATA = [
     image: BlokecoreImage,
     demoUrl: "https://bloke-core-frontend.vercel.app/",
     detailsUrl: "https://github.com/yusufariiq/BlokeCore-frontend",
+    date: "-",
     type: "Web Development",
     tools: ["MongoDB", "Express", "React", "NodeJS", "Tailwind", "Midtrans"]
   },
@@ -184,6 +186,7 @@ export const PROJECTS_DATA = [
     image: AdminImage,
     demoUrl: "https://bloke-core-admin.vercel.app/",
     detailsUrl: "https://github.com/yusufariiq/BlokeCore-admin",
+    date: "-",
     type: "Web Development",
     tools: ["MongoDB", "Express", "React", "NodeJS", "Tailwind",]
   },
@@ -193,6 +196,7 @@ export const PROJECTS_DATA = [
     image: FmsImage,
     demoUrl: "https://dev-fin.idsurvey.id/",
     detailsUrl: "#",
+    date: "-",
     type: "Web Development",
     tools: ["React", "PostgreSQL", "MateriaUI", "Typescript", "Open Office"]
   },
@@ -202,6 +206,7 @@ export const PROJECTS_DATA = [
     image: LPJformImage,
     demoUrl: "#",
     detailsUrl: "https://github.com/Riverroll/LPJFORM",
+    date: "-",
     type: "Web Development",
     tools: ["React", "PostgreSQL", "MateriaUI", "Typescript", "Open Office"]
   },
@@ -211,6 +216,7 @@ export const PROJECTS_DATA = [
     image: TroubleshootImage,
     demoUrl: "#",
     detailsUrl: "https://github.com/yusufariiq/Troubleshoot-Ticketing-BKI",
+    date: "-",
     type: "Web Development",
     tools: ["React", "PostgreSQL", "MateriaUI", "Typescript",]
   },
@@ -220,6 +226,7 @@ export const PROJECTS_DATA = [
     image: SpectrumImage,
     demoUrl: "https://spectrum-movieweb-api.netlify.app/",
     detailsUrl: "https://github.com/yusufariiq/Spectrum-MovieWeb-API-React",
+    date: "-",
     type: "Web Development",
     tools: ["React", "Tailwind", "Axios",]
   },
@@ -229,6 +236,7 @@ export const PROJECTS_DATA = [
     image: GeniusImage,
     demoUrl: "https://yusufariiq.github.io/GeniusHoster-LandingPage/",
     detailsUrl: "https://github.com/yusufariiq/GeniusHoster-LandingPage",
+    date: "-",
     type: "Web Development",
     tools: ["HTML", "CSS", "Bootstrap", "JQuery"]
   },
@@ -238,6 +246,7 @@ export const PROJECTS_DATA = [
     image: BookshelfImage,
     demoUrl: "https://yusufariiq.github.io/Bookshelf/",
     detailsUrl: "https://github.com/yusufariiq/Bookshelf",
+    date: "-",
     type: "Web Development",
     tools: ["HTML", "CSS", "Javascript"]
   },
@@ -247,6 +256,7 @@ export const PROJECTS_DATA = [
     image: ProductlpImage,
     demoUrl: "https://yusufariiq.github.io/Product-Landing-Page-Web/",
     detailsUrl: "https://github.com/yusufariiq/Product-Landing-Page-Web",
+    date: "-",
     type: "Web Development",
     tools: ["HTML", "CSS"]
   },
@@ -256,6 +266,7 @@ export const PROJECTS_DATA = [
     image: BlogImage,
     demoUrl: "https://yusufariiq.github.io/MyFirstWebsite/",
     detailsUrl: "https://github.com/yusufariiq/MyFirstWebsite",
+    date: "-",
     type: "Web Development",
     tools: ["HTML", "CSS", "Javascript"]
   },
@@ -265,6 +276,7 @@ export const PROJECTS_DATA = [
     image: BleuImage,
     demoUrl: "https://www.figma.com/proto/3DPx3XLw0YIQ1lFv1ULyez/Bleu-Coffee-Apps?node-id=0-1&t=6BDLpnTnFtP2RObV-1",
     detailsUrl: "https://www.figma.com/design/3DPx3XLw0YIQ1lFv1ULyez/Bleu-Coffee-Apps?node-id=0-1&t=6BDLpnTnFtP2RObV-1",
+    date: "-",
     type: "UI/UX",
     tools: ["Figma"]
   },
@@ -274,6 +286,7 @@ export const PROJECTS_DATA = [
     image: RoutefyImage,
     demoUrl: "https://www.figma.com/proto/rQ1yLkTfWcqYCkVfGpzJtN/Intuitiva---Routefy?page-id=39%3A28&node-id=136-283&starting-point-node-id=68%3A127&t=ayexzItir5jOdcvZ-1",
     detailsUrl: "https://www.figma.com/design/rQ1yLkTfWcqYCkVfGpzJtN/Intuitiva---Routefy?node-id=569-4647&t=O1lDozLAZNp0FEMx-1",
+    date: "-",
     type: "UI/UX",
     tools: ["Figma"]
   },

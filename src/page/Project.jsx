@@ -14,7 +14,7 @@ const Project = () => {
   })
 
   return (
-    <div className="min-h-screen text-white gradient-bg">
+    <div className="min-h-screen text-white">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <BackButton />
         <div className="flex flex-col mb-12 gap-4">
