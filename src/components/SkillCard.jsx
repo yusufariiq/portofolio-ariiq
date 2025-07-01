@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SkillCard = ({ name, icon }) => {
   return (
     <div className="bg-secondary group relative flex flex-col items-center justify-center p-6 rounded-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">

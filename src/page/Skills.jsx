@@ -1,4 +1,3 @@
-import React from 'react'
 import SkillCard from '../components/SkillCard'
 import BackButton from '../components/BackButton'
 import { SKILLS_DATA } from '../constants/data'

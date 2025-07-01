@@ -4,18 +4,10 @@ import { Code, Briefcase, Award, Github, Instagram, Linkedin, Mail } from 'lucid
 // Certificate
 import rwdFccCertificates from '../assets/certificates/22-rwd-fcc.jpg'
 import udemyHTMLCertificates from '../assets/certificates/23-html5-udemy.jpg'
-import cDicodingCertificates from '../assets/certificates/22-c-dicoding.jpg';
-import dartDicodingCertificates from '../assets/certificates/22-dart-dicoding.jpg';
-import googleCloudDicodingCertificates from '../assets/certificates/22-googlecloud-dicoding.jpg';
-import javaDicodingCertificates from '../assets/certificates/22-java-dicoding.jpg';
-import jsDicodingCertificates from '../assets/certificates/22-js-dicoding.jpg';
-import solidDicodingCertificates from '../assets/certificates/22-solid-dicoding.jpg';
-import webDasarDicodingCertificates from '../assets/certificates/22-webdasar-dicoding.jpg';
 import awsDicodingCertificates from '../assets/certificates/23-aws-dicoding.jpg';
 import bePemulaDicodingCertificates from '../assets/certificates/23-bepemula-dicoding.jpg';
 import bnspCertificates from '../assets/certificates/23-bnsp.jpg';
 import feFundamentalDicodingCertificates from '../assets/certificates/23-fefundamental-dicoding.jpg';
-import fePemulaDicodingCertificates from '../assets/certificates/23-fepemula-dicoding.jpg';
 import gitDicodingCertificates from '../assets/certificates/23-git-dicoding.jpg';
 import haskellDicodingCertificates from '../assets/certificates/23-haskell-dicoding.jpg';
 import sqlDicodingCertificates from '../assets/certificates/23-sql-dicoding.jpg';
@@ -33,6 +25,7 @@ import BookshelfImage from '../assets/image/bookshelf.png'
 import DuluxImage from '../assets/image/dulux.png'
 import FmsImage from '../assets/image/fms.png'
 import GeniusImage from '../assets/image/genius.png'
+import KiddzyImage from '../assets/image/kiddzy.png'
 import LPJformImage from '../assets/image/lpjform.png'
 import ProductlpImage from '../assets/image/productlp.png'
 import RoutefyImage from '../assets/image/routefy.png'
@@ -82,22 +75,10 @@ export const CERTIFICATES_DATA = [
       year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1s9YntNVjhQGP6cu6kVJ35acT8ca9-g9s/view?usp=sharing"
     },
-    // {
-    //   title: "Beginner Frontend Dicoding",
-    //   image: fePemulaDicodingCertificates,
-    //   year: 2022,
-    //   detailsUrl: "https://drive.google.com/file/d/1n3oeGFOzVLI7rzaYyFv-79rmS24Pv-JQ/view?usp=sharing"
-    // },
-    {
-      title: "Basic Web Programming Dicoding",
-      image: webDasarDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1QbYTo7q6erBny3E2qHZEWRbxxDHtLZrc/view?usp=sharing"
-    },
     {
       title: "Beginner Backend Dicoding",
       image: bePemulaDicodingCertificates,
-      year: "",
+      year: 2023,
       detailsUrl: "https://drive.google.com/file/d/18wemln1EOd360wpg3hkhpUsNsP_DsuQo/view?usp=sharing"
     },
     {
@@ -111,18 +92,6 @@ export const CERTIFICATES_DATA = [
       image: pythonDicodingCertificates,
       year: 2024,
       detailsUrl: "https://drive.google.com/file/d/1y_6NAXHE7x2yVIq4-55dZ6mLP74fGPKX/view?usp=sharing"
-    },
-    {
-      title: "JavaScript Dicoding",
-      image: jsDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1rfnM7E9NusR-gR5f4GUYoHt1ZPzE3a74/view?usp=sharing"
-    },
-    {
-      title: "Java Dicoding",
-      image: javaDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1PvVGkj1JUnIQMXdkle2qyK2pTE1EoL8P/view?usp=sharing"
     },
     {
       title: "SQL Dicoding",
@@ -149,34 +118,10 @@ export const CERTIFICATES_DATA = [
       detailsUrl: "https://drive.google.com/file/d/1zquxuflPja5oWj0FF0rLP2oro4SIYwry/view?usp=sharing"
     },
     {
-      title: "Google Cloud Dicoding",
-      image: googleCloudDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1pzQtGPcFV0SzqsaaU7_-FP1_fG2Tb0Mg/view?usp=sharing"
-    },
-    {
-      title: "Dart Dicoding",
-      image: dartDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1WyZ6Ncifaal69WBYgWSqN6NH_xK1wSqB/view?usp=sharing"
-    },
-    {
       title: "Haskell Dicoding",
       image: haskellDicodingCertificates,
       year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1v3Jtz1CCRq8ueGV-p_eSLf52M1NcupzI/view?usp=sharing"
-    },
-    {
-      title: "C Dicoding",
-      image: cDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1RFSJVgEOkMl65AXWnEMLd1l9Yd7kXLpE/view?usp=sharing"
-    },
-    {
-      title: "SOLID Principles Dicoding",
-      image: solidDicodingCertificates,
-      year: 2022,
-      detailsUrl: "https://drive.google.com/file/d/1ie8Nf95GBuVIgIaz_5kTl_SlOr7_0z_z/view?usp=sharing"
     },
     {
       title: "Basic Data Visualization",
@@ -189,13 +134,23 @@ export const CERTIFICATES_DATA = [
 export const PROJECTS_DATA = [
   {
     title: "Dulux Design Competition 2025",
-    description: "Online store for seamless transactions and shopping experiences.",
+    description: "A platform for architects, interior designers and creative thinkers to contribute to challenges hosted by Dulux",
     image: DuluxImage,
     demoUrl: "https://duluxdesigncompetition.com/home",
     detailsUrl: "#",
     date: "-",
     type: "Web Development",
     tools: ["NextJS", "Express", "React", "NodeJS", "Tailwind", "MySQL", "Prisma"]
+  },
+  {
+    title: "Kiddzy E-Daycare",
+    description: "A platform to help parents who want to entrust their children to childcare services digitally, efficiently and integratedly.",
+    image: KiddzyImage,
+    demoUrl: "#",
+    detailsUrl: "https://github.com/yusufariiq/Kiddzy-E-Daycare",
+    date: "-",
+    type: "Web Development",
+    tools: ["NextJS", "NodeJS", "Tailwind", "MongoDB"]
   },
   {
     title: "Blokecore Online Store",
@@ -374,10 +329,13 @@ export const SKILLS_DATA = [
     { name: "MongoDB", icon: MongoIcon },
     { name: "PostgreSQL", icon: PostgresqlIcon },
     { name: "React", icon: ReactIcon },
+    { name: "Next", icon: "https://img.icons8.com/fluency/144/nextjs.png" },
+    { name: "Vue", icon: "https://img.icons8.com/color/144/vue-js.png" },
     { name: "Node.js", icon: NodeIcon },
     { name: "Express", icon: ExpressIcon },
     { name: "Tailwind", icon: TailwindIcon },
     { name: "Bootstrap", icon: BootstrapIcon },
     { name: "Figma", icon: FigmaIcon },
     { name: "Git", icon: GitIcon },
-  ]
+    { name: "Docker", icon: "https://img.icons8.com/fluency/144/docker.png" },
+]
