@@ -1,7 +1,6 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { CERTIFICATES_DATA } from '../constants/data'
 import BackButton from '../components/BackButton'
+import { CERTIFICATES_DATA } from '../constants/certificates'
 
 const Certificate = () => {
   return (
@@ -14,7 +13,8 @@ const Certificate = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {CERTIFICATES_DATA.map((certificate) => (
-              <NavLink 
+              <NavLink
+                key={certificate.title}
                 to={certificate.detailsUrl}
                 target='_blank'
                 className="bg-secondary border-0 overflow-hidden rounded-lg group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"

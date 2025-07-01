@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FileText, } from 'lucide-react'
 import { SOCIAL_LINKS, HOME_SECTIONS } from '../constants/data'
 import { NavLink } from 'react-router-dom'
 import Typed from "typed.js"
-import ResumeFile from "../assets/files/cv.pdf"
-import ProfilePicture from '../assets/image/profil2.jpg'
+import ResumeFile from "/files/cv.pdf"
+import ProfilePicture from '/image/profil2.jpg'
 import ShinyText from '../components/ShinyText'
 
 const Home = () => {
@@ -61,6 +61,7 @@ const Home = () => {
           <div className="flex gap-5 sm:gap-10 text-white">
             {SOCIAL_LINKS.map((social) => (  
               <NavLink 
+                key={social}
                 to={social.href}
                 target='_blank'
                 className={`bg-button p-2 sm:p-3 rounded-full transition-all duration-300 transform hover:scale-110 ${social.color} group`}
@@ -74,10 +75,10 @@ const Home = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
         {HOME_SECTIONS.map((section) => (
-          <div className=" bg-secondary p-6 rounded-lg text-white transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+          <div className="bg-secondary p-6 rounded-lg text-white transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
             <NavLink
+              key={section.link}
               to={section.link} 
-              key={section.title}
               className={`flex flex-col group transition-colors duration-500 gap-3`}
             >
               <div className="flex justify-between">

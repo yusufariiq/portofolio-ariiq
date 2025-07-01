@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import BackButton from '../components/BackButton'
 import { ProjectCard } from '../components/ProjectCard'
-import { PROJECTS_DATA } from '../constants/data'
 import { Tabs } from '../components/Tabs'
+import { PROJECTS_DATA } from '../constants/projects'
 
 const Project = () => {
   const [activeTab, setActiveTab] = useState('All');

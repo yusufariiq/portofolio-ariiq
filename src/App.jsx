@@ -1,11 +1,11 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from './page/Home'
-import Certificate from './page/Certificate'
-import Project from './page/Project'
-import Skills from './page/Skills'
 import LetterGlitch from './components/LetterGlitch'
 import ClickSpark from './components/ClickSpark'
+import Home from './pages/Home'
+import Certificate from './pages/Certificate'
+import Skills from './pages/Skills'
+import Project from './pages/Project'
 
 function App() {
   return (
