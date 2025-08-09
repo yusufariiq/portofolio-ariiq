@@ -28,7 +28,7 @@ export const PROJECTS_DATA = [
       title: "Kiddzy E-Daycare",
       description: "A platform to help parents who want to entrust their children to childcare services digitally, efficiently and integratedly.",
       image: KiddzyImage,
-      demoUrl: "#",
+      demoUrl: "https://kiddzy-e-daycare-5ltvebwcb-yusufariiqs-projects.vercel.app/",
       detailsUrl: "https://github.com/yusufariiq/Kiddzy-E-Daycare",
       date: "-",
       type: "Web Development",
