@@ -7,13 +7,57 @@ import DuluxImage from '/image/dulux.png'
 import FmsImage from '/image/fms.png'
 import GeniusImage from '/image/genius.png'
 import KiddzyImage from '/image/kiddzy.png'
+import LiveAudioTranscriptionImage from '/image/liveaudiotranscription.png'
 import LPJformImage from '/image/lpjform.png'
 import ProductlpImage from '/image/productlp.png'
 import RoutefyImage from '/image/routefy.png'
+import SmartviewImage from '/image/smartview.jpg'
 import SpectrumImage from '/image/spectrum.png'
+import TelkomAIShowcaseImage from '/image/telkomaishowcase.png'
 import TroubleshootImage from '/image/troubleshoot.png'
+import VoiceAssistantImage from '/image/voiceassistant.png'
 
 export const PROJECTS_DATA = [
+    {
+      title: "Telkom AI Showcase",
+      description: "The website features several use cases from Telkom's artificial intelligence services.",
+      image: TelkomAIShowcaseImage,
+      demoUrl: "#",
+      detailsUrl: "#",
+      date: "-",
+      type: "Web Development",
+      tools: ["NextJS", "React", "Tailwind", "Docker"]
+    },
+    {
+      title: "Voice Assistant",
+      description: "A websites to interact with AI through audio and support the customization of LLM providers.",
+      image: VoiceAssistantImage,
+      demoUrl: "#",
+      detailsUrl: "#",
+      date: "-",
+      type: "Web Development",
+      tools: ["NextJS", "React", "Tailwind", "Python", "FastRTC", "Docker"]
+    },
+    {
+      title: "Live Audio Transcription",
+      description: "A website used as presentation tools by providing transcription and translation features, and can display presentation files.",
+      image: LiveAudioTranscriptionImage,
+      demoUrl: "#",
+      detailsUrl: "#",
+      date: "-",
+      type: "Web Development",
+      tools: ["Vue", "Vite", "Tailwind", "Docker", "Websocket"]
+    },
+    {
+      title: "Smart View Real-Time Streaming",
+      description: "A website that displays video streaming of a local camera.",
+      image: SmartviewImage,
+      demoUrl: "#",
+      detailsUrl: "#",
+      date: "-",
+      type: "Web Development",
+      tools: ["NextJS", "Express", "React", "NodeJS", "Tailwind", "HLS.js", "Docker"]
+    },
     {
       title: "Dulux Design Competition 2025",
       description: "A platform for architects, interior designers and creative thinkers to contribute to challenges hosted by Dulux",
