@@ -8,7 +8,7 @@ import Pagination from '../components/Pagination'
 const Project = () => {
   const [activeTab, setActiveTab] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 6;
   const tabs = ['All', 'Web Development', "UI/UX"];
 
   const filteredProjects = PROJECTS_DATA.filter((project) => {
