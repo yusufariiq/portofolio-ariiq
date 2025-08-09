@@ -12,6 +12,8 @@ import uxDicodingCertificates from '/certificates/23-ux-dicoding.jpg';
 import dsDicodingCertificates from '/certificates/24-ds-dicoding.jpg';
 import pythonDicodingCertificates from '/certificates/24-python-dicoding.jpg';
 import vdDicodingCertificates from '/certificates/25-visualisasi-dicoding.png';
+import magentaBKICertificates from '/certificates/24-magenta-bki.jpg';
+import magentaTelkomCertificates from '/certificates/25-magenta-telkom.jpg';
 
 export const CERTIFICATES_DATA = [
     {
@@ -19,6 +21,18 @@ export const CERTIFICATES_DATA = [
       image: bnspCertificates,
       year: 2023,
       detailsUrl: "https://drive.google.com/file/d/1q_Ieg23r-LbL--Om25qVQYbK6WsNB074/view?usp=sharing"
+    },
+    {
+      title: "Magenta - Telkom Indonesia",
+      image: magentaTelkomCertificates,
+      year: 2025,
+      detailsUrl: "https://drive.google.com/file/d/17UnAX_kovIIBI6tCCUj8lUeHgpXHx3wH/view?usp=sharing"
+    },
+    {
+      title: "Magenta - Biro Klasifikasi Indonesia",
+      image: magentaBKICertificates,
+      year: 2024,
+      detailsUrl: "https://drive.google.com/file/d/1JtmMCokpfzCSBar9k6ew_KUGTddzirtv/view?usp=sharing"
     },
     {
       title: "Responsive Web Design FreeCodeCamp",
