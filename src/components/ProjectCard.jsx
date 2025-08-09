@@ -26,19 +26,21 @@ export function ProjectCard({ title, description, image, demoUrl, detailsUrl, ty
       </div>
 
       <div className="px-6 pb-6 flex flex-row justify-end gap-3">
-        <NavLink
-            to={demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative py-2 px-4 flex items-center bg-button gap-2 rounded-lg hover:bg-indigo-700 duration-200"
-        >
-            { type === "UI/UX" ? (
-              <p>Prototype</p>
-            ) : (
-              <p>Live Demo</p>
-            )}
-            <ExternalLink className="h-4 w-4" />
-        </NavLink>
+        { demoUrl !== '#' && (
+          <NavLink
+              to={demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative py-2 px-4 flex items-center bg-button gap-2 rounded-lg hover:bg-indigo-700 duration-200"
+          >
+              { type === "UI/UX" ? (
+                <p>Prototype</p>
+              ) : (
+                <p>Live Demo</p>
+              )}
+              <ExternalLink className="h-4 w-4" />
+          </NavLink>
+        )}
         
         { detailsUrl !== '#' && 
           <NavLink
